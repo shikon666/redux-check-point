@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+
+
+body{
+  
+ 
+  height: 1500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.todoitem{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  background: rgba(232, 230, 230, 0.6);
+  display: flex;
+  justify-content: space-around;
+  align-items:baseline;
+}
+.title{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: azure;
+}
+
+.NAVBAR{
+  display: flex;
+}
+.btn {
+  height: 55px;
+}
+.mb-3{
+  width: 50%;
+  margin-top: 20px !important;
+  margin :0  auto;
+  
 }
